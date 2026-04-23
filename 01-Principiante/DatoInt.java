@@ -4,18 +4,19 @@ public class DatoInt {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num1;
-        int num2;
-        int suma;
+        String firstname ="";
+        String lastname ="";
+        String fullname = "";
 
-        System.out.print("Por favor digita un numero: ");
-        num1 = sc.nextInt();
-        System.out.print("Por favor digita un segundo numero: ");
-        num2 = sc.nextInt();
+        System.out.print("Por favor escriba su primer nombre: ");
+        firstname = sc.next();
+        System.out.print("Por favor escriba su apellido: ");
+        lastname = sc.next();
 
-        suma = num1 + num2;
+        fullname = firstname + lastname;
 
-        System.out.println("El resultado de la suma es: " + suma);
+
+        System.out.println("hola " + fullname );
 
     }
 }
